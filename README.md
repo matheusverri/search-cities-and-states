@@ -1,4 +1,4 @@
-# Meu Aplicativo Ruby on Rails
+# Buscar cidades e estados (Embarca)
 
 Este é um aplicativo Ruby on Rails configurado para rodar em um ambiente Docker. Este README fornece instruções detalhadas sobre como clonar o repositório, iniciar o projeto, configurar o banco de dados e executar a suíte de testes.
 
