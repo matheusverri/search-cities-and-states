@@ -10,16 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20240725115903) do
+ActiveRecord::Schema.define(version: 20240725120651) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "cities", force: :cascade do |t|
     t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.integer  "state_id"
+    t.string   "url_image"
+    t.string   "description"
     t.index ["state_id"], name: "index_cities_on_state_id", using: :btree
   end
 
