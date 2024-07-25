@@ -4,6 +4,11 @@ class CitiesController < ApplicationController
   # GET /cities or /cities.json
   def index
     @cities = City.all
+    return unless params[:search].present?
+
+    @cities = @cities.where('name ILIKE ?',
+                            "%#{params[:search]}%").or(@cities.where(state: State.find_by('LOWER(name) = ?',
+                                                                                          params[:search].downcase)))
   end
 
   # GET /cities/1 or /cities/1.json

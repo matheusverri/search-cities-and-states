@@ -11,15 +11,15 @@
   State.create([{ name: 'Paraná' }, { name: 'Santa Catarina' }, { name: 'Rio Grande do Sul' }])
 
   City.create([
-                { name: 'Curitiba', description: 'Capital do Paraná.', url_image: 'https://epa.aero/wp-content/uploads/00305108.jpg', state_id: 1 },
+                { name: 'Curitiba', description: 'Capital do Paraná.', url_image: 'https://aluguemala.com.br/blog/wp-content/uploads/2023/06/Curitiba.webp', state_id: 1 },
                 { name: 'Foz do Iguaçu',
-                  description: 'Principal base para visitar as famosas Cataratas do Iguaçu, uma das maiores cachoeiras do mundo.', url_image: 'https://www.visitbrasil.com/wp-content/uploads/2021/06/Foz-do-Iguacu-Visit-Brazil-5.jpg', state_id: 1 },
-                { name: 'Guarapuava', description: 'É o maior município em área territorial do estado.', url_image: 'https://blog.instacasa.com.br/wp-content/uploads/2020/09/CAPA-3.png',
+                  description: 'Principal base para visitar as famosas Cataratas do Iguaçu, uma das maiores cachoeiras do mundo.', url_image: 'https://blog.123milhas.com/wp-content/uploads/2021/12/BANNER-TEM-QUE-IR-FOZ-IGUACU-123MILHAS.jpg', state_id: 1 },
+                { name: 'Guarapuava', description: 'É o maior município em área territorial do estado.', url_image: 'https://lh5.googleusercontent.com/p/AF1QipOiiTkyytE3kdG5k-RFx2ak9jjyLionio9_GMqt=w540-h312-n-k-no',
                   state_id: 1 },
   
                 { name: 'Florianópolis', description: 'Capital de Santa Catarina', url_image: 'https://todepassagem.clickbus.com.br/wp-content/uploads/2022/10/florianopolis.jpg', state_id: 2 },
                 { name: 'Blumenau',
-                  description: 'Possui uma agenda cultural focada nas festas baseadas no cotidiano e hábitos dos imigrantes europeus, destacando-se a colonização alemã, com a Oktoberfest, a segunda maior festa de cerveja do mundo, que, todos os anos em outubro, acontece durante 17 dias.', url_image: 'https://f.i.uol.com.br/fotografia/2023/05/23/1684859525646cea859c4d5_1684859525_3x2_md.jpg', state_id: 2 },
+                  description: 'Possui uma agenda cultural focada nas festas baseadas no cotidiano e hábitos dos imigrantes europeus, destacando-se a colonização alemã, com a Oktoberfest, a segunda maior festa de cerveja do mundo, que, todos os anos em outubro, acontece durante 17 dias.', url_image: 'https://s2station.blog/wp-content/uploads/2022/10/C4D64F44-52BD-4E2D-89C1-8A2565A2C095_1_105_c-1024x683.jpeg', state_id: 2 },
                 { name: 'Joinville', description: 'Maior cidade do estado.', url_image: 'https://www.rvempreendimentos.com.br/wp-content/uploads/2021/09/entrada-de-joinville.jpg', state_id: 2 },
   
                 { name: 'Porto Alegre', description: 'Capital do Rio Grande do Sul', url_image: 'https://media.istockphoto.com/id/1345135633/pt/foto/porto-alegre-city.jpg?s=612x612&w=0&k=20&c=kGkDRHj3oXRysbGLe2CwBFCfND0xEzG_cTowKTYLm3c=',
